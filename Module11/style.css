@@ -1,0 +1,36 @@
+h1{
+background-color: aqua;
+margin: 40px;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 20px;
+padding-bottom: 20px;
+color: white;
+border: 10px;
+border-color: gold;
+border-style: ridge;
+}
+
+p{
+
+background-color: rgb(3, 3, 88);
+color: red;
+margin: 10%;
+padding: 10%;
+border: 10px;
+border-color: black;
+border-style: groove;
+
+}
+
+h3{
+    padding: 20%;
+background-image:  url(../images/realmadrid.webp);
+background-size: 50%;
+background-color: blue;
+
+height: 50%; width: 50%;
+
+
+
+}
