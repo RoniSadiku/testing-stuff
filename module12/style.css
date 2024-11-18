@@ -1,0 +1,59 @@
+h1{
+color: blue;
+text-decoration: underline;
+letter-spacing: 20px;
+}
+
+
+H2{
+    text-decoration: line-through;
+    color:green;
+    text-shadow: 100px;
+    letter-spacing: 20px;
+    text-transform: lowercase;
+
+    writing-mode: vertical-lr;
+
+}
+
+h3{
+text-decoration: overline;
+color: yellow;
+letter-spacing: 20px;
+
+}
+
+p{
+
+font-family: monospace;
+color: red;
+
+}
+
+
+img{
+
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+
+}
+#BlueColor{
+    text-decoration: none;
+
+    color: blue;
+} 
+
+#RedColor{
+    text-decoration: overline;
+    color: red;
+}
+
+#AquaColor{
+text-decoration: line-through;
+    color: aqua;
+}
+
+.h2{
+    text-decoration: none;
+    color: darkblue;
+
+}
