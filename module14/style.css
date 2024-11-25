@@ -1,0 +1,62 @@
+article p{ 
+    background-color: black;
+    color: red;
+}
+
+article > p { color: aqua;
+
+    background-color: green;}
+
+article ~ p {
+
+background-color: blue;
+color: white;
+}
+
+article + p {background-color: green;}
+
+input:in-range {border: 3px solid green;
+color: blue;
+}
+
+input:out-of-range {
+
+    border: 3px solid red;
+}
+
+
+input:valid {
+
+    backgrocolorund-: green;
+}
+
+input:invalid {
+
+    background-color: red;
+}
+
+h3:first-child{
+
+    background-color: blue;
+}
+
+h2::first-letter {
+
+    color: blue;
+    font-size: 70px}
+    
+
+h2::before {
+
+    content: url(../images/realmadrid.webp);
+}
+
+h2::after{
+
+    content: url(../images/realmadrid.webp);
+}
+
+::selection{
+    background-color: red;
+    color: black;
+}
