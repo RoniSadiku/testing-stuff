@@ -1,0 +1,188 @@
+div#translate{
+width: 200px;
+height: 200px;
+color: white;
+background-color: blue;
+transform: translate(100px,100px);
+}
+
+
+div#rotate{
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color: blue;
+    transform: rotate(40deg);
+
+margin-top: 150px;
+    }
+    
+
+    div#scale{
+        width: 200px;
+        height: 200px;
+        color: white;
+        background-color: blue;
+        transform: scale(2,1 );
+    
+    margin-top: 150px;
+    margin-left: 150px;
+
+    
+        }
+
+        
+    div#scaleX{
+        width: 200px;
+        height: 200px;
+        color: white;
+        background-color: blue;
+        transform: scaleX(3);
+    
+    margin-top: 150px;
+    margin-left: 150px;
+margin-right: 150px;
+    
+        }
+
+
+        div#scaleY{
+            width: 200px;
+            height: 200px;
+            color: white;
+            background-color: blue;
+            transform: scaleY(3);
+        
+        margin-top: 150px;
+        margin-left: 150px;
+    margin-right: 150px;  }
+
+    div#skewX{
+        width: 200px;
+        height: 200px;
+        color: white;
+        background-color: blue;
+        transform: skewX(140deg);
+    
+    margin-top: 150px;
+    margin-left: 150px;
+margin-right: 150px;  }
+
+            
+div#skewY{
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color: blue;
+    transform: skewY(-140deg);
+
+margin-top: 150px;
+margin-left: 150px;
+margin-right: 150px;  }
+
+
+div#rotateX{
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color: blue;
+    transform: rotateX(-140deg);
+
+margin-top: 150px;
+margin-left: 150px;
+margin-right: 150px;  }
+
+
+div#rotateY{
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color: blue;
+    transform: rotateY(140deg);
+
+margin-top: 150px;
+margin-left: 150px;
+margin-right: 150px;  }
+
+
+div#rotateZ{
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color: blue;
+    transform: rotateZ(200px);
+
+margin-top: 150px;
+margin-left: 150px;
+margin-right: 150px;  }
+
+
+
+div#transition_1{
+width: 200px;
+height: 200px;
+background:red;
+transition: ease 2s;
+
+}        
+
+div#transition_1:hover{
+    background:blue
+}
+        
+
+
+div#transition_2{
+    width: 200px;
+    height: 200px;
+    background:red;
+    transition: ease 2s;
+    border-radius: 0;
+    }        
+    
+    div#transition_2:hover{
+        background:blue;
+        border-radius: 50%;
+    
+    }
+
+    div#transition_3{
+        width: 200px;
+        height: 200px;
+        background:red;
+        transition: ease 2s;
+        border-radius: 0;
+        transition-delay: 1s;
+        }        
+        
+        div#transition_3:hover{
+            background:blue;
+            border-radius: 50%;
+        
+        }
+                
+        figure#mbappe{
+        width: 100px;
+        height: 100px;
+        transform: scale(0.2);
+        transition: ease-in-out 1s;
+        }
+
+        figure#mbappe:hover{
+        transform: scale(0.5);
+
+        }
+            
+
+        figure#blur img{
+            filter: blur(3px);
+            
+           
+            transition: .3s ease-in;
+            }
+    
+            figure#blur:hover img{
+            filter: blur(0);
+    
+            }
+                
