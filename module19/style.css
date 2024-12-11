@@ -1,0 +1,39 @@
+.container{
+display: flex;
+background: blue;
+flex-wrap: wrap;
+align-items: flex-end;
+flex-direction: row-reverse;
+
+}
+
+
+
+
+.container div{
+color: black;
+font-size: 50px;
+background-color: white;
+margin: 10px;
+padding: 20px;
+
+}
+
+.container2{
+    display: flex;
+    background: blue;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: space-between;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    }
+    
+    .container2 div{
+    color: black;
+    font-size: 50px;
+    background-color: white;
+    flex-wrap: wrap-reverse;
+    align-content: space-evenly;
+    margin: 10px;
+    padding: 20px;}
