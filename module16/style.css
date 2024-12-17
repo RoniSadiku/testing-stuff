@@ -35,3 +35,43 @@ border: 1px solid gray;
     background-position: 0 1000;
 
 }
+
+
+p[class*="ds"]{
+
+background-color: blue;
+color: white;
+
+}
+
+
+a[href="https://www.youtube.com/"]{
+background-color: black;
+color: red;
+
+}
+
+
+img[title^="Best"]{
+border: 3px solid blue;
+}
+
+h1[class|=heading]{
+
+    color: black;
+    background-color: red;
+}
+
+
+input[placeholder~="name"]{ 
+    border: 3px solid blue;
+}
+
+
+
+div[class$="school"]{
+
+background-color: red;
+color: blue;
+
+}

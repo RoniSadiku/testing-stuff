@@ -1,0 +1,82 @@
+h1#title{
+
+}
+
+ul{
+margin-left: 65%;
+
+
+}
+li{
+
+list-style-type: none;
+float: left;
+}
+
+li button{
+border: none;
+background-color: rgb(138, 3, 138);
+font-size: 20px;
+color: white;
+}
+
+li button:hover{
+background-color:rgb(53, 2, 53)
+
+
+}
+
+div#row{display: flex;
+
+flex-direction: row;}
+
+
+
+p#paragraph1{
+align-items: center;
+font-size: 30px;
+
+}
+
+div#work_with_us button{
+background: orange;
+border: none;
+font-size: 20px;
+color: white;
+padding: 10px 40px
+}
+
+div#work_with_us button:hover{
+
+background: rgb(134, 88, 1);
+
+}
+
+section#purple{background: rgb(207, 3, 207);
+color: white;
+}
+
+
+section#cyan{
+color: black;
+background: cyan;
+
+
+}
+h1#services{font-size: 30px;}
+
+p#paragraph2{font-size: 30px;}
+
+
+img#flag{width: 200px; height: 200px;}
+
+div#images{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+div#images{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+float: left;}
