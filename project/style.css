@@ -1,3 +1,11 @@
+@media (min-width: 30px) and (orientation: landscape) and (orientation: portrait){
+
+
+}
+    
+
+
+
 h1#title{
 font-size: 100px;
 }
@@ -54,8 +62,10 @@ background: rgb(134, 88, 1);
 }
 
 section#purple{background: rgb(207, 3, 207);
+
 color: white;
-}
+
+} 
 
 
 section#cyan{
@@ -190,8 +200,5 @@ align-content: space-between space-evenly;
       color: rgb(5, 87, 87);
 
       }
-      
-
-
 
     
