@@ -200,5 +200,66 @@ align-content: space-between space-evenly;
       color: rgb(5, 87, 87);
 
       }
+section#orange{
+background: orange;
+color: black;
 
+
+}
+
+p#orange{
+font-size: 30px;
+
+}
+
+div#button2 button{
+
+background-color: rgb(255, 200, 99);
+font-size: 30px;
+border: 0;
+
+}
+
+div#button2 button :hover{
+
+    background-color: white;
+
+
+
+}
+
+
+
+button#load{
+
+    background-color: aqua;
+    font-size: 40px;
+}
     
+p#hello{
+
+    margin-right: 300px;
+}
+
+div#photo1{
+    float: left;
+}
+
+
+div#photo1 p{
+    margin-left: 180px;
+}
+
+div#photo3{
+    float: left;
+}
+
+
+div#photo2 p{
+    margin-left: 900px;}
+
+
+    div#photo3 p{  
+        margin-left: 180px};
+    
+        div#foto p{ margin-right:  -10000px;}
