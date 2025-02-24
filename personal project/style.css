@@ -1,0 +1,284 @@
+section#gray{
+    background: black;
+    color: white;
+}
+
+h1#title{
+
+    font-size: 50px;
+}
+
+div#photo1{
+    margin-left: 20px;
+   display: flex;
+   flex-direction: column;
+   min-width: 10px;
+        min-height: 10px;
+        max-width: 100%;
+        max-height: 100%;
+
+}
+
+div#photo2{
+    float: left;
+
+    
+    display: flex;
+    flex-direction: column;
+ 
+
+}
+
+#photo1 button{
+    background: orangered;
+    width: 250px;
+    height: 50px;
+    border: 0;
+}
+
+#photo1 button:hover{
+    background: rgb(247, 247, 94);
+}
+
+#photos{
+    display: flex;
+    flex-direction: row;
+}
+
+#photo2{
+    margin-left: 80px;
+    min-width: 10px;
+        min-height: 10px;
+        max-width: 100%;
+        max-height: 100%;
+}
+
+#photo2 button{
+    background: orangered;
+    width: 250px;
+    height: 50px;
+    border: 0;
+
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 100%;
+        max-height: 100%;
+
+    
+}
+
+#photo2 button:hover{
+    background: rgb(247, 247, 94);
+}
+
+#photo3 button{
+    background: orangered;
+    width: 250px;
+    height: 50px;
+    border: 0;
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 100%;
+        max-height: 100%;
+}
+
+#photo3 button:hover{
+    background: rgb(247, 247, 94);
+}
+
+div#photo3{
+    float: left;
+margin-left: 80px;
+    
+    display: flex;
+    flex-direction: column;}
+ 
+
+
+    #photo4 button{
+        background: orangered;
+        width: 250px;
+        height: 50px;
+        border: 0;
+        min-width: 10px;
+        min-height: 10px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    #photo4 button:hover{
+        background: rgb(247, 247, 94);
+    }
+    
+    div#photo4{
+        float: left;
+    margin-left: 80px;
+        
+        display: flex;
+        flex-direction: column;}
+
+        section{background: darkblue;
+        margin-top: -45px;}
+
+        h1#rate{
+            font-size: 50px;
+            color: white;
+        }
+     
+div#review img{
+    height: 130px; width: 130px;
+    background: darkblue;
+}
+
+
+div#review img:hover {
+    background: yellow;
+}
+
+
+
+
+form{
+    float: left;
+
+}
+
+input#input1{
+border: 1px solid black;
+background: rgb(28, 28, 105);
+background-color: rgb(28, 28, 105);
+align-items: center;
+font-size: 30px;
+margin-left: 250px;
+min-width: 10px;
+min-height: 10px;
+max-width: 100%;
+        max-height: 100%;
+        color: white;
+
+}
+input#input2{
+    border: 1px solid black;
+    background: rgb(28, 28, 105);
+    background-color: rgb(28, 28, 105);
+    align-items: center;
+    font-size: 30px;
+    margin-left: 60px;
+    min-width: 10px;
+min-height: 10px;
+max-width: 100%;
+        max-height: 100%;
+        color: white;
+
+    
+    }
+    textarea#input3{
+        border: 1px solid black;
+        background: rgb(28, 28, 105);
+        background-color: rgb(28, 28, 105);
+        align-items: center;
+        font-size: 30px;
+        margin-left: 270px;
+        min-width: 10px;
+        max-width: 100%;
+        max-height: 100%;
+min-height: 10px;
+color: white;
+
+        
+        
+        
+        
+        }
+
+        div#darkblue1{
+
+            display: flex;
+align-content: space-between space-evenly;
+        }
+
+      div#submit button{
+        border: none;
+        color: white;
+        background: aqua;
+        font-size: 30px;
+        margin-left: 200px;
+        padding: 10px;
+        
+
+      }
+
+      div#submit button:hover{
+      background: rgb(5, 87, 87);
+    
+      }
+
+a{text-decoration: none;
+color: white;}
+
+
+
+
+
+@media screen and (max-width: 800px) {
+textarea#input3{
+    width: 300px;
+    height: 300px;}
+
+    
+input#input2{
+    width: 300px;
+    height: 300px;
+}
+
+
+input#input1{
+
+    width: 300px;
+    height: 300px;
+}
+div#photo3{
+    width: 100px;
+    height: 100px;
+}
+
+div#photo4{
+    width: 100px;
+    height: 100px;
+}
+
+div#photo2{
+    width: 100px;
+    height: 100px;
+}
+
+div#photo1{
+    width: 100px;
+    height: 100px;
+}
+
+
+div#photo3 img{
+    width: 100px;
+    height: 100px;
+}
+
+div#photo4 img{
+    width: 100px;
+    height: 100px;
+}
+
+div#photo2 img{
+    width: 100px;
+    height: 100px;
+}
+
+div#photo1 img{
+    width: 100px;
+    height: 100px;
+}
+}
+
+
+
+  

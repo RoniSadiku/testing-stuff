@@ -1,0 +1,33 @@
+section{background: rgb(0, 0, 122);}
+
+h1#social{
+    font-size: 50px;
+    color: white;
+}
+
+p#Tiktok{
+    font-size: 20px;
+    color: white;
+}
+
+
+h1#Tiktok{
+    font-size: 50px;
+    color: white;
+}
+
+section#youtube{
+    background: rgb(85, 1, 1);
+    margin-top: -45px;
+}
+
+h1#Youtube{
+font-size: 50px;
+color: white;
+}
+
+p#youtube{
+
+font-size: 20px;
+color: white;
+}

@@ -1,0 +1,39 @@
+h1#Gaming{
+    color: white;
+    font-size: 50px;
+}
+
+
+section{background: rgb(0, 99, 91);}
+
+
+h1#Gta_v{
+    font-size: 50px;
+    color: white;
+}
+
+
+p#GTA_V{
+    color: white;
+    font-size: 20px;
+}
+
+
+section#gta_sa{
+background: rgb(9, 109, 0);
+margin-top: -45px;
+
+
+}
+
+h1#gta_sa{
+color: white;
+font-size: 50px;
+
+}
+
+
+p#gta_sa{
+    color: white;
+    font-size: 20px;
+}

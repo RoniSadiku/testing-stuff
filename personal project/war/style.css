@@ -1,0 +1,35 @@
+#title{color: white;
+font-size: 50px;}
+
+section{background: black;}
+
+
+h1#WW1{
+
+    font-size: 50px;
+    color: white;
+}
+
+p#WW1_paragraph{
+    color: white;
+    font-size: 20px;
+}
+
+p#world_war{color:white;
+font-size: 20px;
+                             }
+
+
+             section#WW2{
+               background-color: rgb(41, 40, 40);
+                color: white;
+                margin-top: -50px;
+             }    
+             
+             h1#ww2{font-size: 50px;}
+
+
+             p#ww2{
+                color: white;
+                font-size: 20px;
+             }
